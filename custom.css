@@ -1,0 +1,7 @@
+/* here you can put your own css to customize and override the theme */
+.header {
+    background: black;
+}
+.header >.container>a>img, .site-logo> img.logo-size{
+    width: 150px;
+}
