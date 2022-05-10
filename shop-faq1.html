@@ -18,7 +18,7 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
 <!-- Head BEGIN -->
 <head>
   <meta charset="utf-8">
-  <title>Nosotros | Aolik</title>
+  <title>Frequently Asked Questions | Metronic Shop UI</title>
 
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -55,7 +55,7 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
   <link href="assets/corporate/css/style.css" rel="stylesheet">
   <link href="assets/pages/css/style-shop.css" rel="stylesheet" type="text/css">
   <link href="assets/corporate/css/style-responsive.css" rel="stylesheet">
-  <link href="assets/corporate/css/themes/blue.css" rel="stylesheet" id="style-color">
+  <link href="assets/corporate/css/themes/red.css" rel="stylesheet" id="style-color">
   <link href="assets/corporate/css/custom.css" rel="stylesheet">
   <!-- Theme styles END -->
 </head>
@@ -64,14 +64,75 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
 <!-- Body BEGIN -->
 <body class="ecommerce">
     <!-- BEGIN STYLE CUSTOMIZER -->
+    <div class="color-panel hidden-sm">
+      <div class="color-mode-icons icon-color"></div>
+      <div class="color-mode-icons icon-color-close"></div>
+      <div class="color-mode">
+        <p>THEME COLOR</p>
+        <ul class="inline">
+          <li class="color-red current color-default" data-style="red"></li>
+          <li class="color-blue" data-style="blue"></li>
+          <li class="color-green" data-style="green"></li>
+          <li class="color-orange" data-style="orange"></li>
+          <li class="color-gray" data-style="gray"></li>
+          <li class="color-turquoise" data-style="turquoise"></li>
+        </ul>
+      </div>
+    </div>
+    <!-- END BEGIN STYLE CUSTOMIZER --> 
+
+    <!-- BEGIN TOP BAR -->
+    <div class="pre-header">
+        <div class="container">
+            <div class="row">
+                <!-- BEGIN TOP BAR LEFT PART -->
+                <div class="col-md-6 col-sm-6 additional-shop-info">
+                    <ul class="list-unstyled list-inline">
+                        <li><i class="fa fa-phone"></i><span>+1 456 6717</span></li>
+                        <!-- BEGIN CURRENCIES -->
+                        <li class="shop-currencies">
+                            <a href="javascript:void(0);">€</a>
+                            <a href="javascript:void(0);">£</a>
+                            <a href="javascript:void(0);" class="current">$</a>
+                        </li>
+                        <!-- END CURRENCIES -->
+                        <!-- BEGIN LANGS -->
+                        <li class="langs-block">
+                            <a href="javascript:void(0);" class="current">English </a>
+                            <div class="langs-block-others-wrapper"><div class="langs-block-others">
+                              <a href="javascript:void(0);">French</a>
+                              <a href="javascript:void(0);">Germany</a>
+                              <a href="javascript:void(0);">Turkish</a>
+                            </div></div>
+                        </li>
+                        <!-- END LANGS -->
+                    </ul>
+                </div>
+                <!-- END TOP BAR LEFT PART -->
+                <!-- BEGIN TOP BAR MENU -->
+                <div class="col-md-6 col-sm-6 additional-nav">
+                    <ul class="list-unstyled list-inline pull-right">
+                        <li><a href="shop-account.html">My Account</a></li>
+                        <li><a href="shop-wishlist.html">My Wishlist</a></li>
+                        <li><a href="shop-checkout.html">Checkout</a></li>
+                        <li><a href="page-login.html">Log In</a></li>
+                    </ul>
+                </div>
+                <!-- END TOP BAR MENU -->
+            </div>
+        </div>        
+    </div>
+    <!-- END TOP BAR -->
+
+    <!-- BEGIN HEADER -->
     <div class="header">
       <div class="container">
-        <a class="site-logo" href="shop-index.html"><img src="https://aolik.com.mx/wp-content/uploads/2021/03/AOLIK-SYSTEM-SIN-FONDO-e1615350272889.png" alt="Metronic Shop UI"></a>
+        <a class="site-logo" href="shop-index.html"><img src="assets/corporate/img/logos/logo-shop-red.png" alt="Metronic Shop UI"></a>
 
         <a href="javascript:void(0);" class="mobi-toggler"><i class="fa fa-bars"></i></a>
 
         <!-- BEGIN CART -->
-        <!-- <div class="top-cart-block">
+        <div class="top-cart-block">
           <div class="top-cart-info">
             <a href="javascript:void(0);" class="top-cart-info-count">3 items</a>
             <a href="javascript:void(0);" class="top-cart-info-value">$1260</a>
@@ -144,16 +205,46 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
               </div>
             </div>
           </div>            
-        </div> -->
+        </div>
         <!--END CART -->
 
         <!-- BEGIN NAVIGATION -->
         <div class="header-navigation">
           <ul>
-            
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="javascript:;">
+                Woman 
+                
+              </a>
+                
+              <!-- BEGIN DROPDOWN MENU -->
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu">
+                  <a href="shop-product-list.html">Hi Tops <i class="fa fa-angle-right"></i></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="shop-product-list.html">Second Level Link</a></li>
+                    <li><a href="shop-product-list.html">Second Level Link</a></li>
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="javascript:;">
+                        Second Level Link 
+                        <i class="fa fa-angle-right"></i>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a href="shop-product-list.html">Third Level Link</a></li>
+                        <li><a href="shop-product-list.html">Third Level Link</a></li>
+                        <li><a href="shop-product-list.html">Third Level Link</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="shop-product-list.html">Running Shoes</a></li>
+                <li><a href="shop-product-list.html">Jackets and Coats</a></li>
+              </ul>
+              <!-- END DROPDOWN MENU -->
+            </li>
             <li class="dropdown dropdown-megamenu">
-              <a class="dropdown-toggle" data-toggle="dropdown" data-target="" href="javascript:;">
-                Productos
+              <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="javascript:;">
+                Man
                 
               </a>
               <ul class="dropdown-menu">
@@ -161,40 +252,52 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
                   <div class="header-navigation-content">
                     <div class="row">
                       <div class="col-md-4 header-navigation-col">
-                        <h4>Cables</h4>
+                        <h4>Footwear</h4>
                         <ul>
-                          <li><a href="shop-product-list.html">Fibra</a></li>
-                          <li><a href="shop-product-list.html">Cobre</a></li>
+                          <li><a href="shop-product-list.html">Astro Trainers</a></li>
+                          <li><a href="shop-product-list.html">Basketball Shoes</a></li>
+                          <li><a href="shop-product-list.html">Boots</a></li>
+                          <li><a href="shop-product-list.html">Canvas Shoes</a></li>
+                          <li><a href="shop-product-list.html">Football Boots</a></li>
+                          <li><a href="shop-product-list.html">Golf Shoes</a></li>
+                          <li><a href="shop-product-list.html">Hi Tops</a></li>
+                          <li><a href="shop-product-list.html">Indoor and Court Trainers</a></li>
                         </ul>
                       </div>
                       <div class="col-md-4 header-navigation-col">
-                        <h4>Seguridad</h4>
+                        <h4>Clothing</h4>
                         <ul>
-                          <li><a href="shop-product-list.html">Cámaras</a></li>
-                          <li><a href="shop-product-list.html">Sistemas</a></li>
-                          <li><a href="shop-product-list.html">CCTV</a></li>
+                          <li><a href="shop-product-list.html">Base Layer</a></li>
+                          <li><a href="shop-product-list.html">Character</a></li>
+                          <li><a href="shop-product-list.html">Chinos</a></li>
+                          <li><a href="shop-product-list.html">Combats</a></li>
+                          <li><a href="shop-product-list.html">Cricket Clothing</a></li>
+                          <li><a href="shop-product-list.html">Fleeces</a></li>
+                          <li><a href="shop-product-list.html">Gilets</a></li>
+                          <li><a href="shop-product-list.html">Golf Tops</a></li>
                         </ul>
                       </div>
                       <div class="col-md-4 header-navigation-col">
-                        <h4>Accessorios</h4>
+                        <h4>Accessories</h4>
                         <ul>
-                          <li><a href="shop-product-list.html">Paneles</a></li>
-                          <li><a href="shop-product-list.html">Conectores</a></li>
+                          <li><a href="shop-product-list.html">Belts</a></li>
+                          <li><a href="shop-product-list.html">Caps</a></li>
+                          <li><a href="shop-product-list.html">Gloves, Hats and Scarves</a></li>
                         </ul>
 
-                        <!-- <h4>Clearance</h4>
+                        <h4>Clearance</h4>
                         <ul>
                           <li><a href="shop-product-list.html">Jackets</a></li>
                           <li><a href="shop-product-list.html">Bottoms</a></li>
-                        </ul> -->
+                        </ul>
                       </div>
                       <div class="col-md-12 nav-brands">
                         <ul>
-                          <img title="axis" alt="axis" src="assets/pages/img/brands/AxisLogo.jpg"></li>
-                          <!-- <li><img title="cisco" alt="cisco" src="assets/pages/img/brands/Cisco.png"></li> -->
-                          <li><img title="tp-link" alt="tp-link" src="assets/pages/img/brands/TPLINK_New_Logo.jpg"></li>
-                          <li><img title="kobrex" alt="kobrex" src="assets/pages/img/brands/kobrex.jpg"></li>
-                          <li><img title="iusa" alt="iusa" src="assets/pages/img/brands/iusa.jpg"></li>
+                          <li><a href="shop-product-list.html"><img title="esprit" alt="esprit" src="assets/pages/img/brands/esprit.jpg"></a></li>
+                          <li><a href="shop-product-list.html"><img title="gap" alt="gap" src="assets/pages/img/brands/gap.jpg"></a></li>
+                          <li><a href="shop-product-list.html"><img title="next" alt="next" src="assets/pages/img/brands/next.jpg"></a></li>
+                          <li><a href="shop-product-list.html"><img title="puma" alt="puma" src="assets/pages/img/brands/puma.jpg"></a></li>
+                          <li><a href="shop-product-list.html"><img title="zara" alt="zara" src="assets/pages/img/brands/zara.jpg"></a></li>
                         </ul>
                       </div>
                     </div>
@@ -202,28 +305,8 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
                 </li>
               </ul>
             </li>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="javascript:;">
-                Cables 
-                
-              </a>
-                
-              <!-- BEGIN DROPDOWN MENU -->
-              <ul class="dropdown-menu">
-                <li class="dropdown-submenu">
-                  <a href="shop-product-list.html">Fibra Óptica</a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="shop-product-list.html">Fibra Óptica</a></li>
-                    <!-- <li><a href="shop-product-list.html">Patch</a></li> -->
-                    
-                  </ul>
-                </li>
-                <li><a href="shop-product-list.html">Cobre</a></li>
-              </ul>
-              <!-- END DROPDOWN MENU -->
-            </li>
-            <li><a href="shop-item.html">Nosotros</a></li>
-            <!-- <li class="dropdown dropdown100 nav-catalogue">
+            <li><a href="shop-item.html">Kids</a></li>
+            <li class="dropdown dropdown100 nav-catalogue">
               <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="javascript:;">
                 New
                 
@@ -276,40 +359,40 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
                   </div>
                 </li>
               </ul>
-            </li> -->
-            <li class="dropdown ">
+            </li>
+            <li class="dropdown active">
               <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="javascript:;">
-                Sitios 
+                Pages 
                 
               </a>
                 
               <ul class="dropdown-menu">
-                <li><a href="shop-index.html">Home</a></li>
-                <!-- <li><a href="shop-index-header-fix.html">Home Header Fixed</a></li> -->
-                <!-- <li><a href="shop-index-light-footer.html">Home Light Footer</a></li> -->
-                <li><a href="shop-product-list.html">Lista de Productos</a></li>
-                <!-- <li><a href="shop-search-result.html">Search Result</a></li> -->
-                <!-- <li class=""><a href="shop-item.html">Producto</a></li> -->
-                <!-- <li><a href="shop-shopping-cart-null.html">Shopping Cart (Null Cart)</a></li> -->
-                <!-- <li><a href="shop-shopping-cart.html">Shopping Cart</a></li>
-                <li><a href="shop-checkout.html">Checkout</a></li> -->
-                <li><a href="shop-about.html">Nosotros</a></li>
-                <li><a href="shop-contacts.html">Contacto</a></li>
-                <!-- <li><a href="shop-account.html">My account</a></li>
+                <li><a href="shop-index.html">Home Default</a></li>
+                <li><a href="shop-index-header-fix.html">Home Header Fixed</a></li>
+                <li><a href="shop-index-light-footer.html">Home Light Footer</a></li>
+                <li><a href="shop-product-list.html">Product List</a></li>
+                <li><a href="shop-search-result.html">Search Result</a></li>
+                <li><a href="shop-item.html">Product Page</a></li>
+                <li><a href="shop-shopping-cart-null.html">Shopping Cart (Null Cart)</a></li>
+                <li><a href="shop-shopping-cart.html">Shopping Cart</a></li>
+                <li><a href="shop-checkout.html">Checkout</a></li>
+                <li><a href="shop-about.html">About</a></li>
+                <li><a href="shop-contacts.html">Contacts</a></li>
+                <li><a href="shop-account.html">My account</a></li>
                 <li><a href="shop-wishlist.html">My Wish List</a></li>
-                <li><a href="shop-goods-compare.html">Product Comparison</a></li> -->
-                <!-- <li><a href="shop-standart-forms.html">Standart Forms</a></li> -->
-                <li><a href="shop-faq.html">FAQ</a></li>
-                <li><a href="shop-privacy-policy.html">Política de Privacidad</a></li>
-                <li><a href="shop-terms-conditions-page.html">Terminos y Condiciones</a></li>
+                <li><a href="shop-goods-compare.html">Product Comparison</a></li>
+                <li><a href="shop-standart-forms.html">Standart Forms</a></li>
+                <li class="active"><a href="shop-faq.html">FAQ</a></li>
+                <li><a href="shop-privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="shop-terms-conditions-page.html">Terms &amp; Conditions</a></li>
               </ul>
             </li>
             
             
-
+            <li><a href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes&amp;utm_source=download&amp;utm_medium=banner&amp;utm_campaign=metronic_frontend_freebie" target="_blank">Admin theme</a></li>
 
             <!-- BEGIN TOP SEARCH -->
-            <!-- <li class="menu-search">
+            <li class="menu-search">
               <span class="sep"></span>
               <i class="fa fa-search search-btn"></i>
               <div class="search-box">
@@ -322,7 +405,7 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
                   </div>
                 </form>
               </div> 
-            </li> -->
+            </li>
             <!-- END TOP SEARCH -->
           </ul>
         </div>
@@ -336,49 +419,128 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
         <ul class="breadcrumb">
             <li><a href="index.html">Home</a></li>
             <li><a href="">Store</a></li>
-            <li class="active">Terms &amp; Conditions</li>
+            <li class="active">Frequently Asked Questions</li>
         </ul>
         <!-- BEGIN SIDEBAR & CONTENT -->
         <div class="row margin-bottom-40">
           <!-- BEGIN SIDEBAR -->
           <div class="sidebar col-md-3 col-sm-3">
             <ul class="list-group margin-bottom-25 sidebar-menu">
-              <li class="list-group-item clearfix"><a href="javascript:;"><i class="fa fa-angle-right"></i> Términos y Condiciones</a></li>
-              <li class="list-group-item clearfix"><a href="shop-privacy-policy.html"><i class="fa fa-angle-right"></i> Política de Privacidad </a></li>
-              <li class="list-group-item clearfix"><a href="shop-contacts.html"><i class="fa fa-angle-right"></i> FAQ</a></li>
-              <li class="list-group-item clearfix"><a href="shop-contacts.html"><i class="fa fa-angle-right"></i> Contacto</a></li>
+              <li class="list-group-item clearfix"><a href="javascript:;"><i class="fa fa-angle-right"></i> Login/Register</a></li>
+              <li class="list-group-item clearfix"><a href="javascript:;"><i class="fa fa-angle-right"></i> Restore Password</a></li>
+              <li class="list-group-item clearfix"><a href="javascript:;"><i class="fa fa-angle-right"></i> My account</a></li>
+              <li class="list-group-item clearfix"><a href="javascript:;"><i class="fa fa-angle-right"></i> Address book</a></li>
+              <li class="list-group-item clearfix"><a href="javascript:;"><i class="fa fa-angle-right"></i> Wish list</a></li>
+              <li class="list-group-item clearfix"><a href="javascript:;"><i class="fa fa-angle-right"></i> Returns</a></li>
+              <li class="list-group-item clearfix"><a href="javascript:;"><i class="fa fa-angle-right"></i> Newsletter</a></li>
             </ul>
           </div>
           <!-- END SIDEBAR -->
 
           <!-- BEGIN CONTENT -->
           <div class="col-md-9 col-sm-9">
-            <h1>Nosotros</h1>
-            <div class="content-page">
-              <p><img src="assets/pages/img/img1.jpg" alt="About us" class="img-responsive"></p> 
-
-              <p>Somos una empresa dedicada en satisfacer las necesidades de la industria en México, ofreciendo una gama amplia de servicios en el área de construcción, instalaciones, mantenimiento y sistemas de comunicación.</p>
-
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-
-              <h2>Lorem ipsum dolor sit amet</h2>
-
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. </p>
-
-              <h3>Investigationes demonstraverunt</h3>
-              <ul>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Claritas est etiam processus dynamicus</li>
-                <li>Duis autem vel eum iriure dolor</li>
-                <li>Eodem modo typi</li>
-              </ul>
-
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
-
-              <h2>Nam liber tempor cum soluta nobis</h2>
-
-              <p> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
-
+            <h1>Frequently Asked Questions</h1>
+            <div class="faq-page">
+                            <div class="panel panel-default">
+                               <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_1">
+                                     1. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry ?
+                                     </a>
+                                  </h4>
+                               </div>
+                               <div id="accordion1_1" class="panel-collapse collapse  in">
+                                  <div class="panel-body">
+                                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                  </div>
+                               </div>
+                            </div>
+                            <div class="panel panel-default">
+                               <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_2">
+                                     2. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry ?
+                                     </a>
+                                  </h4>
+                               </div>
+                               <div id="accordion1_2" class="panel-collapse collapse">
+                                  <div class="panel-body">
+                                     Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch   et.
+                                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                  </div>
+                               </div>
+                            </div>
+                            <div class="panel panel-success">
+                               <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_3">
+                                     3. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor ?
+                                     </a>
+                                  </h4>
+                               </div>
+                               <div id="accordion1_3" class="panel-collapse collapse">
+                                  <div class="panel-body">
+                                     Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch   et.
+                                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                  </div>
+                               </div>
+                            </div>
+                            <div class="panel panel-warning">
+                               <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_4">
+                                     4. Wolf moon officia aute, non cupidatat skateboard dolor brunch ?
+                                     </a>
+                                  </h4>
+                               </div>
+                               <div id="accordion1_4" class="panel-collapse collapse">
+                                  <div class="panel-body">
+                                     3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                  </div>
+                               </div>
+                            </div>
+                            <div class="panel panel-danger">
+                               <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_5">
+                                     5. Leggings occaecat craft beer farm-to-table, raw denim aesthetic ?
+                                     </a>
+                                  </h4>
+                               </div>
+                               <div id="accordion1_5" class="panel-collapse collapse">
+                                  <div class="panel-body">
+                                     3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et
+                                  </div>
+                               </div>
+                            </div>
+                            <div class="panel panel-default">
+                               <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_6">
+                                     6. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth ?
+                                     </a>
+                                  </h4>
+                               </div>
+                               <div id="accordion1_6" class="panel-collapse collapse">
+                                  <div class="panel-body">
+                                     3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et
+                                  </div>
+                               </div>
+                            </div>
+                            <div class="panel panel-default">
+                               <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_7">
+                                     7. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft ?
+                                     </a>
+                                  </h4>
+                               </div>
+                               <div id="accordion1_7" class="panel-collapse collapse">
+                                  <div class="panel-body">
+                                     3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et
+                                  </div>
+                               </div>
+                            </div>
             </div>
           </div>
           <!-- END CONTENT -->

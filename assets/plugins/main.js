@@ -1,14 +1,18 @@
+// const consultar = document.querySelector('#consultarBtn');
+// consultar.addEventListener('click',popupText());
 const consultar = document.querySelector('#consultarBtn');
 consultar.addEventListener('click',popupText());
 
+
 function popupText(){
-    const productName = document.querySelector('#productName').innerText;
+
+    let productName = document.querySelector('#productName').innerText;
     document.querySelector('#productTitle').innerText = productName;
-    const usdPrice = document.querySelector('#usdPrice').innerText;
+    let usdPrice = document.querySelector('#usdPrice').innerText;
     document.querySelector('#usdPrice2').innerText = usdPrice;
     document.querySelector('#productDescription').innerText = `Para obtener informes de ${productName}, por favor llene la siguiente información y nos pondremos en contacto.`;
-    const qty = document.querySelector('#product-quantity').value;
-    document.querySelector('#message').innerText = `¡Hola! me gustaría conseguir informes acerca de ${productName}. \n Cantidad: ${qty}`
+    let qty = document.querySelector('#product-quantity').value;
+    document.querySelector('#message').innerText = `¡Hola! me gustaría conseguir informes acerca de ${productName}. \n Cantidad: ${qty}`;
 
 }
 
@@ -31,7 +35,7 @@ function getFetch(){
         console.log(data.bmx.series[0].datos[0].dato);
         const prizeDl = data.bmx.series[0].datos[0].dato;
         document.querySelector('#usdToMxn').innerText += prizeDl + ' MXN';
-        var priceMxn = (Number(prizeDl) * Number(document.querySelector('#usdPrice2').innerText));
+        let priceMxn = (Number(prizeDl) * Number(document.querySelector('#usdPrice2').innerText));
         document.querySelector('#priceToMxn').innerText += Math.round(priceMxn*100)/100;    
       })
       .catch(err => {
@@ -48,6 +52,7 @@ window.addEventListener("load", function(event) {
     else{
         setPrice();
     }
+
     });
 
 function setPrice(){
